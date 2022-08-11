@@ -7,7 +7,6 @@ module.exports = {
 
     getTask(id){
         const task = tasks.find(t => t.id === id)
-        console.log(task)
         return task
     },
 
